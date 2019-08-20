@@ -1,0 +1,22 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-button slot="start" fill="clear" (click)="dismiss()">
+      <ion-icon name="close"></ion-icon>
+    </ion-button>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <h1>Alternative location</h1>
+    <p>Select this option if GPS is unavailable</p>
+    <ion-item>
+      <ion-label>Enable</ion-label>
+      <ion-toggle color="primary"></ion-toggle>
+    </ion-item>
+    <ion-item>
+      <ion-label position="stacked">Stacked Label</ion-label>
+      <ion-input type="text" placeholder="your address"></ion-input>
+    </ion-item>
+  </ion-grid>
+</ion-content>
